@@ -22,6 +22,8 @@ const render = Render.create({
   },
 });
 
+alert("Use W,A,S,D to move the ball")
+
 Render.run(render);
 Runner.run(Runner.create(), engine);
 
